@@ -182,6 +182,11 @@ li {
   margin-top: 150px;
 }
 
+.collapse-container .desktop-section .desktop-nav-section .section-right img {
+  width: 100%;
+  min-height: 100%;
+}
+
 .collapse-container .second-section .desktop-section-featured {
   background-color: lightgrey;
   border: 1px solid lightgrey;
