@@ -1,0 +1,18 @@
+// mobil için gizleme
+@mixin breakpoint-down {
+    @media (max-width: 500px){
+        display: none;
+    }
+}
+
+
+
+// desktop için gizleme
+
+@mixin breakpoint-up {
+    @media (min-width: 501px){
+        display: none;
+    }
+}
+
+
