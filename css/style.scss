@@ -273,6 +273,7 @@
         .carousel-item{
             justify-content: center;
             display: flex;
+            flex-wrap: wrap;
             .article-cards{
             width: 500px;
             height: auto;
@@ -407,6 +408,7 @@
         .carousel-item{
             justify-content: center;
             display: flex;
+            flex-wrap: wrap;
             .article-cards{
             width: 500px;
             height: auto;
@@ -459,6 +461,7 @@
         height: auto;
         .line-footer{
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-around;
             height: 150px;
             .footer-btn{
