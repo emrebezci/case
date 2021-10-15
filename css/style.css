@@ -128,7 +128,7 @@ li {
 
 @media screen and (max-width: 500px) {
   .collapse-container .second-section .carousel-item img {
-    margin-top: 35px;
+    margin-top: 10px;
   }
 }
 
@@ -345,7 +345,7 @@ li {
       flex-wrap: nowrap;
   margin-left: 50px;
   width: 275px;
-  height: 100px;
+  margin-top: 50px;
 }
 
 .collapse-container .second-section .desktop-section-featured .carousel-indicators li {
@@ -389,27 +389,24 @@ li {
   -webkit-box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
+  padding: 0px 20px;
 }
 
 .collapse-container .third-section .desktop-third-section-cards .cards img {
   margin-top: 30px;
-  margin-left: 30px;
 }
 
 .collapse-container .third-section .desktop-third-section-cards .cards h5 {
   margin-top: 24px;
-  margin-left: 30px;
   font-weight: normal;
 }
 
 .collapse-container .third-section .desktop-third-section-cards .cards p {
-  margin-left: 30px;
   color: gray;
 }
 
 .collapse-container .third-section .desktop-third-section-cards .cards button {
   margin-top: 40px;
-  margin-left: 30px;
   color: #4982c4;
   background-color: white;
   border: none;
@@ -524,11 +521,6 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .collapse-container .first-article .carousel-item .article-cards {
@@ -536,7 +528,7 @@ li {
   height: auto;
   margin: 15px;
   margin-top: 70px;
-  margin-bottom: 140px;
+  margin-bottom: 120px;
   -webkit-box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
@@ -544,7 +536,6 @@ li {
 
 @media screen and (max-width: 500px) {
   .collapse-container .first-article .carousel-item .article-cards {
-    margin-left: 0;
     margin-top: 0px;
     margin-bottom: 20px;
     -webkit-box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
@@ -711,7 +702,6 @@ li {
 
 @media screen and (max-width: 500px) {
   .second-article .carousel-item .article-cards {
-    margin-left: 0;
     margin-top: 0px;
     margin-bottom: 70px;
     -webkit-box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
