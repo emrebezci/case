@@ -121,6 +121,9 @@ li {
   .collapse-container .desktop-nav .desktop-nav-button {
     display: none;
   }
+  .collapse-container .desktop-nav li {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -247,6 +250,7 @@ li {
 }
 
 .collapse-container .desktop-section .desktop-nav-section {
+  margin-left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -429,6 +433,12 @@ li {
   text-align: center;
 }
 
+@media screen and (max-width: 500px) {
+  .collapse-container .fourth-section .section-text {
+    margin-left: 10px;
+  }
+}
+
 .collapse-container .fourth-section .section-text h3 {
   font-weight: lighter;
 }
@@ -457,6 +467,17 @@ li {
   margin-bottom: 75px;
 }
 
+@media screen and (max-width: 500px) {
+  .collapse-container .fourth-section .section-cards .fourth-card {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .collapse-container .fourth-section .section-cards .fourth-card img {
+    width: 90%;
+  }
+}
+
 .collapse-container .fourth-section .section-cards .fourth-card .text-card {
   background-color: #fff;
   border: 1px solid white;
@@ -483,7 +504,8 @@ li {
   border-radius: 5%;
   padding: 20px 40px;
   cursor: pointer;
-  margin-bottom: 140px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .collapse-container .first-article .desktop-article-featured .h3-text {
@@ -765,6 +787,7 @@ li {
       -ms-grid-row-align: center;
       align-self: center;
   font-weight: normal;
+  margin-left: 15px;
 }
 
 footer {
@@ -784,6 +807,43 @@ footer .footer-parts {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  footer .footer-parts {
+    display: block;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    border: 1px solid #2c7ee9;
+  }
+  footer .footer-parts .first-footer-part {
+    margin-top: 50px;
+    margin-left: 20px !important;
+  }
+  footer .footer-parts .footer-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .footer-parts .footer-right .second-footer-part {
+    margin-top: 20px;
+    margin-left: 20px !important;
+  }
+  footer .footer-parts .footer-right .second-footer-part li {
+    margin-top: 5px;
+  }
+  footer .footer-parts .footer-right .third-footer-part {
+    margin-top: 20px;
+    margin-left: 20px !important;
+  }
+  footer .footer-parts .footer-right .third-footer-part li {
+    margin-top: 5px;
+  }
 }
 
 footer .footer-parts .first-footer-part {
