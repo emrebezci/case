@@ -527,8 +527,7 @@ li {
   width: 500px;
   height: auto;
   margin: 15px;
-  margin-top: 70px;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   -webkit-box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
@@ -611,9 +610,6 @@ li {
 }
 
 .collapse-container .mid-article .desktop-article-featured .carousel-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -682,9 +678,6 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -693,7 +686,6 @@ li {
   width: 500px;
   height: auto;
   margin: 15px;
-  margin-top: 70px;
   margin-bottom: 70px;
   -webkit-box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.4);
