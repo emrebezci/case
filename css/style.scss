@@ -48,6 +48,101 @@
             }
     }
 
+    // mobil nav
+
+    .mobil-nav{
+        .nav-line{
+            .nav-list{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .mobil-logo{
+                margin-left: 30px;
+            }
+            .hamburger-icon{
+                border: 1px solid lightgray;
+                padding: 10px 20px;
+                margin-right: 30px;
+            }
+            }
+        }
+        .under-nav{
+            margin-top: 100px;
+            border-radius: 300px 0px 0px 50px;
+            text-align: center;
+            background-color: rgb(122, 122, 224);
+            border: 1px solid rgb(122, 122, 224);
+            h3{
+                margin-top: 50px;
+                font-weight: normal;
+                margin-left: 30px;
+                .span-build{
+                    color: rgb(64, 107, 224);
+                }
+            }
+            p{
+                margin-left: 30px;
+            }
+            .mobil-nav-btn{
+            color: white;
+            background-color: rgb(95, 151, 216);
+            border: none;
+            border-radius: 10%;
+            padding: 10px 10px;
+            cursor: pointer;
+            }
+            .mobil-social-icons{
+                .mobil-social-icon-list{
+                    display: flex;
+                    justify-content: center;
+                    li{
+                        padding: 15px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    // mobil nav active
+
+    .mobil-active-nav{
+        display: none;
+        .active-nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            img{
+                margin-left: 30px;
+            }
+            i{
+                border: 1px solid lightgray;
+                padding: 10px 21px;
+                margin-right: 30px;
+            }
+        }
+        .active-nav-list{
+            background-color: lightgray;
+            text-align: center;
+            border: 1px solid lightgray;
+            li{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                a{
+                    color: gray;
+                }
+                .nav-active-btn{
+            color: white;
+            background-color: rgb(95, 151, 216);
+            border: none;
+            border-radius: 10%;
+            padding: 10px 10px;
+            cursor: pointer;
+                }
+            }
+        }
+    }
+
 
     // section start
     .desktop-section{

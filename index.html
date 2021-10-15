@@ -19,10 +19,11 @@
 
 <body>
     <!-- container başlangıç -->
-    <div class="collapse-container ">
+    <div class="collapse-container">
 
         <!-- navbar desktop -->
         <nav class="desktop-nav">
+            <div class="hide-for-mobile">
             <img class="logo" src="/images/logo.png" alt="">
             <ul class="nav-list">
                 <li><a href="">Home</a></li>
@@ -32,10 +33,51 @@
                 <li><a href="">Country</a></li>
             </ul>
             <button class="desktop-nav-button" type="submit">Apply</button>
+            </div>
         </nav>
         <!-- nav-bitis -->
 
-        <section class="desktop-section">
+        <!-- mobil nav -->
+
+        <nav class="mobil-nav" id="mobile-nav">
+            <div class="nav-line">
+                <ul class="nav-list">
+                <li><img class="mobil-logo" src="/images/logo.png" alt=""></li>
+                <li><i onclick="hamburgeropen()" class="fas fa-bars hamburger-icon"></i></li>
+                </ul>
+            </div>
+            <div class="under-nav">
+                <h3>We Help to <span class="span-build">Build</span> Your Dream</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam soluta, distinctio ipsa voluptate inventore molestiae!</p>
+                <button class="mobil-nav-btn" type="submit">Apply Online <i class="fas fa-arrow-right"></i></button> 
+                    <div class="mobil-social-icons">
+                        <ul class="mobil-social-icon-list">
+                            <li><i class="fab fa-facebook"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fab fa-instagram"></i></li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+
+        <nav class="mobil-active-nav" id="mobile-nav-isactive">
+            <ul class="active-nav">
+                <li><img class="logo" src="/images/logo.png" alt="">
+                </li>
+                <li><i onclick="hamburgerClose()" class="fas fa-times"></i></li>
+            </ul>
+            
+            <ul class="active-nav-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Our Services</a></li>
+                <li><a href="">Testimonial</a></li>
+                <li><a href="">Country</a></li>
+                <li><button class="nav-active-btn" type="submit">Apply Online <i class="fas fa-arrow-right"></i></button></li>
+            </ul>
+        </nav>
+
+        <section class="desktop-section hide-for-mobile">
             <div class="desktop-nav-section">
                 <div class="section-left">
                     <h1>We Help to <span>Build</span> Your Dream</h1>
@@ -394,7 +436,7 @@
         </div>
     </footer>
 
-
+<!-- footer end -->
 
     <!-- container bitis -->
     </div>
@@ -413,6 +455,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+        <script src="/js/main.js"></script>
 </body>
 
 </html>

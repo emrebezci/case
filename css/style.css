@@ -115,6 +115,123 @@ li {
   cursor: pointer;
 }
 
+.collapse-container .mobil-nav .nav-line .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collapse-container .mobil-nav .nav-line .nav-list .mobil-logo {
+  margin-left: 30px;
+}
+
+.collapse-container .mobil-nav .nav-line .nav-list .hamburger-icon {
+  border: 1px solid lightgray;
+  padding: 10px 20px;
+  margin-right: 30px;
+}
+
+.collapse-container .mobil-nav .under-nav {
+  margin-top: 100px;
+  border-radius: 300px 0px 0px 50px;
+  text-align: center;
+  background-color: #7a7ae0;
+  border: 1px solid #7a7ae0;
+}
+
+.collapse-container .mobil-nav .under-nav h3 {
+  margin-top: 50px;
+  font-weight: normal;
+  margin-left: 30px;
+}
+
+.collapse-container .mobil-nav .under-nav h3 .span-build {
+  color: #406be0;
+}
+
+.collapse-container .mobil-nav .under-nav p {
+  margin-left: 30px;
+}
+
+.collapse-container .mobil-nav .under-nav .mobil-nav-btn {
+  color: white;
+  background-color: #5f97d8;
+  border: none;
+  border-radius: 10%;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.collapse-container .mobil-nav .under-nav .mobil-social-icons .mobil-social-icon-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collapse-container .mobil-nav .under-nav .mobil-social-icons .mobil-social-icon-list li {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.collapse-container .mobil-active-nav {
+  display: none;
+}
+
+.collapse-container .mobil-active-nav .active-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collapse-container .mobil-active-nav .active-nav img {
+  margin-left: 30px;
+}
+
+.collapse-container .mobil-active-nav .active-nav i {
+  border: 1px solid lightgray;
+  padding: 10px 21px;
+  margin-right: 30px;
+}
+
+.collapse-container .mobil-active-nav .active-nav-list {
+  background-color: lightgray;
+  text-align: center;
+  border: 1px solid lightgray;
+}
+
+.collapse-container .mobil-active-nav .active-nav-list li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.collapse-container .mobil-active-nav .active-nav-list li a {
+  color: gray;
+}
+
+.collapse-container .mobil-active-nav .active-nav-list li .nav-active-btn {
+  color: white;
+  background-color: #5f97d8;
+  border: none;
+  border-radius: 10%;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
 .collapse-container .desktop-section .desktop-nav-section {
   display: -webkit-box;
   display: -ms-flexbox;
