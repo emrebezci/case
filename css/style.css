@@ -254,12 +254,13 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .collapse-container .desktop-section .desktop-nav-section .section-left {
+  width: 60%;
   margin-top: 186px;
 }
 
@@ -314,6 +315,7 @@ li {
 }
 
 .collapse-container .desktop-section .desktop-nav-section .section-right {
+  width: 40%;
   margin-top: 150px;
 }
 

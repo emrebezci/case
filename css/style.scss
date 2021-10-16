@@ -176,9 +176,11 @@
 .desktop-nav-section{
         margin-left: 50px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        
         // section-left baslangic
         .section-left{
+            width: 60%;
             margin-top: 186px;
             h1{
             font-size: 55px;
@@ -227,6 +229,7 @@
 
         // section right baslangic
         .section-right{
+            width: 40%;
             margin-top: 150px;
             img{
                 width: 100%;
